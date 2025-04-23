@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 16px/1.618rem Arial, "Roboto Condensed", sans-serif;
+  background: white;
+}
+
+#top-bar {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+#top-bar #bill-sprinters {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1.35 * 1.618rem);
+  line-height: calc(1.5 * 1.618rem);
+  font-weight: 700;
+  font-style: italic;
+  color: #fff0;
+  justify-content: center;
+  padding: 5vw;
+  margin: 0;
+}
+#top-bar #bill-sprinters img {
+  max-height: 50vh;
+  max-width: 50vw;
+}
+#top-bar #bill-sprinters span {
+  display: block;
+  /*font-weight: bold;*/
+  text-shadow: 0 0 0 #fff;
+  text-align: right;
+}
+#top-bar #bill-sprinters span#and-sons {
+  font-weight: 400;
+  font-size: 95%;
+  font-style: italic;
+  /* text-shadow: 0 0 0 #ff3; */
+}
+
+#image-bar {
+  height: 100vh;
+  width: 100%;
+  background: no-repeat url("bg2-countryside.jpg") center;
+  background-size: cover;
+}
+
+#body-text {
+  min-height: 100vh;
+  padding: 5vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000c;
+}
+#body-text p {
+  max-width: 36rem;
+  font-size: 1rem;
+  font-weight: 100;
+
+}
+#body-text div:last-child {
+  padding-bottom: 5vw;
+}
